@@ -8,14 +8,9 @@ Text
 Emotions
 Weather conditions
 
+
 ## Requirements
 Install the following libraries before running the modules:
-
-
-## Datasets
-Place your datasets under:
-Dataset/emotion/ (subfolders: e.g. happy/, sad/)
-Dataset/weather/ (images prefixed with category name)
 
 ```bash
 pip install opencv-python numpy pillow mediapipe easyocr pytesseract scikit-learn img2vec-pytorch
@@ -25,3 +20,7 @@ Tesseract must be installed separately.
 img2vec-pytorch uses pretrained models and may require PyTorch and torchvision.
 
 
+## Datasets
+Place your datasets under:
+Dataset/emotion/ (subfolders: e.g. happy/, sad/)
+Dataset/weather/ (images prefixed with category name)
