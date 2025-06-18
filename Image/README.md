@@ -10,6 +10,13 @@ Uses pretrained CNN embeddings via **img2vec** and a **Random Forest classifier*
 python weather_detection.py
 ```
 
+
+**Dataset**
+
+Place your datasets under:
+
+Dataset/weather/ (images prefixed with category name)
+
 2. Card Classifier
 
 Classifies Deck of Cards using **Pytorch**
