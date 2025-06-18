@@ -55,6 +55,11 @@ Real-time Detection:
 python emotion_detection.py
 ```
 
+**Dataset**
+
+Place your datasets under:
+
+Dataset/emotion/ (subfolders: e.g. happy/, sad/)
 
 ## Requirements
 
@@ -70,8 +75,3 @@ Tesseract must be installed separately.
 
 img2vec-pytorch uses pretrained models and may require PyTorch and torchvision.
 
-
-## Datasets
-Place your datasets under:
-
-Dataset/emotion/ (subfolders: e.g. happy/, sad/)
