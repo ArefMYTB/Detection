@@ -55,3 +55,23 @@ Real-time Detection:
 python emotion_detection.py
 ```
 
+
+## Requirements
+
+Install the following libraries before running the modules:
+
+```bash
+pip install opencv-python numpy pillow mediapipe easyocr pytesseract scikit-learn img2vec-pytorch
+```
+
+Note:
+
+Tesseract must be installed separately.
+
+img2vec-pytorch uses pretrained models and may require PyTorch and torchvision.
+
+
+## Datasets
+Place your datasets under:
+
+Dataset/emotion/ (subfolders: e.g. happy/, sad/)
